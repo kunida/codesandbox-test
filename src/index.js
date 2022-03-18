@@ -53,16 +53,38 @@
  * アロー関数
  */
 // 昔
-function func_old(str) {
-  return str;
-}
-console.log(func_old("functionです"));
+// function func_old(str) {
+//   return str;
+// }
+// console.log(func_old("functionです"));
 
 //アロー関数
-const func_arrow = (str) => {
-  return str;
-};
-console.log(func_arrow("アロー関数です"));
+// const func_arrow = (str) => {
+//   return str;
+// };
+// console.log(func_arrow("アロー関数です"));
 
-const func = (num1, num2) => num1 + num2;
-console.log(func(10, 100));
+// const func = (num1, num2) => num1 + num2;
+// console.log(func(10, 100));
+
+/**
+ * 分割代入
+ */
+// const myProfile = {
+//   name: "kuttan",
+//   age: 23,
+// };
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}です。`;
+// console.log(message1);
+
+// const {name, age} = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}です。`;
+// console.log(message2);
+
+const myProfile = ["kuttan", 23];
+const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
+console.log(message3);
+
+const [name, age] = myProfile;
+const message4 = `名前は${name}です。年齢は${age}歳です。`;
+console.log(message4);
