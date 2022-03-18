@@ -48,3 +48,21 @@
 // 今
 // const message_new = `私の名前は${name}です。年齢は${age}です。`;
 // console.log(message_new);
+
+/**
+ * アロー関数
+ */
+// 昔
+function func_old(str) {
+  return str;
+}
+console.log(func_old("functionです"));
+
+//アロー関数
+const func_arrow = (str) => {
+  return str;
+};
+console.log(func_arrow("アロー関数です"));
+
+const func = (num1, num2) => num1 + num2;
+console.log(func(10, 100));
