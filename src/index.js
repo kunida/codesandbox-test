@@ -36,3 +36,15 @@
 // val5[0] = "bird";
 // val5.push("monkey");
 // console.log(val5);
+
+/**
+ * テンプレート文字列
+ */
+// const name = "kuttan";
+// const age = 23 ;
+// 昔
+// const message_old = "私の名前は" + name + "です。年齢は" + age + "です。";
+// console.log(message_old);
+// 今
+// const message_new = `私の名前は${name}です。年齢は${age}です。`;
+// console.log(message_new);
